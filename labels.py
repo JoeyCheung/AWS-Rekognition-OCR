@@ -4,7 +4,7 @@ import image_helpers
 
 client = boto3.client('rekognition')
 
-img = '' #insert image
+img = '' #insert image link
 
 imgbytes = image_helpers.get_image_from_url(img)
 
